@@ -51,6 +51,15 @@ public class TugasMingguTigaTest {
             System.out.println("failed");
         }
         System.out.println(add);
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.quit();
+        System.out.println("close browser");
+
     }
 
     static void delay(long detik){
