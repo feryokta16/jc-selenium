@@ -19,7 +19,7 @@ public class TugasMingguTigaTest {
         //TUTUP IKLAN
         driver.findElement(By.xpath("//*[@id=\"mat-dialog-0\"]/app-welcome-banner/div/div[2]/button[2]/span[1]/span")).click();
         //Masukan Username dan Password
-        driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/div[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/app-login[1]/div[1]/mat-card[1]/div[1]/mat-form-field[1]/div[1]/div[1]/div[3]/input[1]")).sendKeys("feryokta1603@gmail.com");
+        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("feryokta1603@gmail.com");
         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("#Amala1908");
         delay(3);
         //Button Login
